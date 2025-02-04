@@ -1,11 +1,11 @@
 let _ = Submission(
-    name: <#T##String#>,
-    status: <#T##Status#>,
-    technologies: <#T##[String]#>,
+    name: "Piotr Jeremicz",
+    status: .submitted,
+    technologies: ["UIKit", "AVFoundation"],
     
-    aboutMeUrl: .init(string: <#T##String#>),
-    sourceUrl: <#T##URL?#>,
-    videoUrl: <#T##URL?#>
+    aboutMeUrlString: "http://github.com",
+    sourceUrlString: "http://github.com",
+    videoUrlString: "http://github.com"
 )
 
 // MARK: - TEMPLATE - do not remove it //
